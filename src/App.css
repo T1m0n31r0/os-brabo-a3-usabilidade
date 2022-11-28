@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Roboto&family=Rubik+Beastly&display=swap');
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+.App {
+  font-family: 'Roboto';
+}
+
+.App-main {
+  width: 100vw;
+  height: 100vh;
+}

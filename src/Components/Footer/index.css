@@ -1,0 +1,12 @@
+
+.App-footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    border: none;
+  }

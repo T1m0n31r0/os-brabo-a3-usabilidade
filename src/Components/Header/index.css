@@ -1,0 +1,46 @@
+
+.Header {
+    width: 100vw;
+    position:fixed;
+    background-color: #282c34;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    z-index: 1;
+  }
+  
+  .Brabo {
+    margin-left: 24px;
+    font-family: 'Rubik Beastly';
+  }
+  
+  .Brabo a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .Menu {
+    margin-right: 24px;
+    display: flex;
+    list-style: none;
+  }
+  
+  .Menu li {
+    margin-right: 24px;
+  }
+  
+  .Menu li a {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .Menu li a:hover {
+    transition: 0.75s;
+    color: rgba(255, 255, 255, 0.781);
+    text-decoration: underline;
+  }
+  

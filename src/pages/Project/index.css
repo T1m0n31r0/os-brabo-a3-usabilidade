@@ -1,0 +1,41 @@
+.Project-top {
+  width: 100vw;
+  height: 17vh;
+}
+
+.Project {
+    display: flex;
+    height: 75vh;
+  }
+  
+  .Project-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 24px 12px 24px 24px;
+    text-align: left;
+  }
+  
+  .Project-right {
+    width: 50%;
+    margin: 24px 24px 24px 12px;
+    background-image: url('../../assets/project-img.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+  }
+  
+  .Project-list {
+    margin: 0 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    text-align: right;
+  }
+  
+  .Project-list a {
+    color: black;
+    text-decoration: none;
+  }

@@ -1,0 +1,36 @@
+.Squad-top {
+  width: 100vw;
+  height: 17vh;
+}
+.Squad {
+    display: flex;
+    height: 75vh;
+  }
+  
+  .Squad-left {
+    width: 50%;
+    margin: 24px 12px 24px 24px;
+    background-image: url('../../assets/squad-img.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+  }
+  
+  .Squad-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 24px 24px 24px 12px;
+    text-align: right;
+  }
+  
+  .Squad-list {
+    margin: 0 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    text-align: left;
+  }
+  

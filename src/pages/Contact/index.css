@@ -1,0 +1,72 @@
+.Contact-us-header {
+  width: 100vw;
+  height: 16vh;
+}
+.Contact-us {
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('../../assets/contact-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .Contact-us-top {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .Contact-us-form{
+    background-color: #000;
+    opacity: 90%;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 16px;
+    width: 500px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .Contact-us-form fieldset {
+    font-weight: lighter;
+    color: #fff;
+  }
+  
+  .Name-email {
+    margin-bottom: 16px;
+    padding: 0 4px;
+    width: 99%;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    background: #282c34;
+    color: white;
+  }
+  
+  .Contact-us-form textarea {
+    width: 99%;
+    padding: 4px;
+    background: #282c34;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .Contact-us-send {
+    margin-top: 12px;
+    width: 256px;
+    height: 48px;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+    background-color: #000;
+    color: #FFF;
+  }
+
+  .Contact-us-send:hover {
+    text-decoration: underline;
+  }
